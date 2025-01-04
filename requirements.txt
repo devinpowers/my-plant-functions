@@ -1,0 +1,16 @@
+# This is a sample requirements.txt file for an Azure Functions (Python) app.
+
+# The core Azure Functions Python library for function bindings and triggers.
+azure-functions==1.11.3
+
+# Example: If you use the Azure Storage Blob library, pin it too:
+azure-storage-blob==12.14.1
+
+# Example: If you use Azure Identity for Key Vault or Managed Identity:
+azure-identity==1.12.0
+
+# Example: If you call Azure Key Vault secrets:
+azure-keyvault-secrets==4.7.0
+
+# If you have other libraries, list them (and pin as needed).
+requests==2.31.0
