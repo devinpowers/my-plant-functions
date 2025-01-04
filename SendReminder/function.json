@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "message",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "RemindersQueue",
+      "connection": "SERVICE_BUS_CONNECTION_STRING"
+    }
+  ]
+}
