@@ -1,6 +1,5 @@
 # This is a sample requirements.txt file for an Azure Functions (Python) app.
 
-azure
 # The core Azure Functions Python library for function bindings and triggers.
 azure-functions==1.11.3
 
