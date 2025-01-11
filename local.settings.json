@@ -1,15 +1,7 @@
 {
-  "IsEncrypted": false,
+  "IsEncrypted": true,
   "Values": {
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "FUNCTIONS_WORKER_RUNTIME": "python",
-    "SERVICE_BUS_CONNECTION_STRING": "Endpoint=sb://<your-servicebus-name>.servicebus.windows.net/;SharedAccessKeyName=<policy-name>;SharedAccessKey=<key>",
-    "SERVICE_BUS_QUEUE_NAME": "RemindersQueue",
-    "AZURE_SQL_CONNECTION_STRING": "Driver={ODBC Driver 17 for SQL Server};Server=tcp:<your-server-name>.database.windows.net,1433;Database=<your-database-name>;Uid=<username>@<server-name>;Pwd=<password>;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;",
-    "SENDGRID_API_KEY": "<your-sendgrid-api-key>"
+    "FUNCTIONS_WORKER_RUNTIME": "CfDJ8Jad9pje26pJoZRmP/WGSS5SOSS2CMZQqfAwvqQWD3IVMUDyUOwdCrdnemVqJuOYriYK0z9qGeWxpV7cXSesyR7MtGq7leGaxt3Q5pF2qDQygbp61/EvWp7Rdy5Dh2HITg=="
   },
-  "Host": {
-    "CORS": "*",
-    "CORSCredentials": false
-  }
+  "ConnectionStrings": {}
 }

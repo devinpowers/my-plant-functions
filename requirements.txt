@@ -1,5 +1,6 @@
 # This is a sample requirements.txt file for an Azure Functions (Python) app.
 
+azure
 # The core Azure Functions Python library for function bindings and triggers.
 azure-functions==1.11.3
 
@@ -14,3 +15,8 @@ azure-keyvault-secrets==4.7.0
 
 # If you have other libraries, list them (and pin as needed).
 requests==2.31.0
+
+azure-functions
+azure-servicebus
+azure-cosmos
+sendgrid
