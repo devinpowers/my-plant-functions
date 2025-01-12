@@ -16,6 +16,11 @@ azure-keyvault-secrets==4.7.0
 requests==2.31.0
 
 azure-functions
+
 azure-servicebus
+
 azure-cosmos
+
 sendgrid
+
+azure-communication-email

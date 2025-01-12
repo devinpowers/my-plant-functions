@@ -1,5 +1,6 @@
 import os
 from azure.servicebus import ServiceBusClient, ServiceBusMessage
+import json
 
 def send_message_to_service_bus(message_payload):
     connection_string = os.getenv("SERVICE_BUS_CONNECTION_STRING")
