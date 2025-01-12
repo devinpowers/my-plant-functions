@@ -7,6 +7,8 @@ from shared.service_bus import send_message_to_service_bus
 def main(timer: func.TimerRequest) -> None:
     logging.info('CheckSchedule Function triggered at: %s', datetime.utcnow())
 
+
+
     try:
         # Query database for plants needing reminders
         due_plants = get_due_plants()
