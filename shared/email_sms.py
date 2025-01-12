@@ -45,6 +45,7 @@ def send_email(data):
             },
         }
 
+
         poller = client.begin_send(message)
         result = poller.result()
         logging.info(f"Email sent successfully. Message ID: {result.get('message_id', 'unknown')}")
