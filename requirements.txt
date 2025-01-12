@@ -24,3 +24,4 @@ azure-cosmos
 sendgrid
 
 azure-communication-email
+pyodbc
