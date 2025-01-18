@@ -31,8 +31,15 @@ jobs:
           python -m venv venv
           source venv/bin/activate
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install system dependencies
+        run: |
+          chmod +x install_odbc_dependencies.sh
+          sudo ./install_odbc_dependencies.sh
+
+      - name: Install Python dependencies
+        run: |
+          source venv/bin/activate
+          pip install -r requirements.txt
 
       # Optional: Add step to run tests here
 
